@@ -14,17 +14,50 @@ function Portfolio({ isActive }) {
       id: 1, 
       title: 'AI Interview Preparation Platform', 
       category: 'Full Stack', 
-      img: '/assets/images/project-1.jpg',
-      link: '#',
-      github: '#'
+      img: '/assets/images/project-1.png',
+      link: 'http://34.235.142.51/',
     },
     { 
       id: 2, 
       title: 'Velvet Streak - Productivity', 
       category: 'Full Stack', 
       img: '/assets/images/project-2.png',
-      link: '#',
-      github: '#'
+      link: 'https://velvet-streak.vercel.app/',
+    },
+    { 
+      id: 3, 
+      title: 'Task Manager', 
+      category: 'Frontend', 
+      img: '/assets/images/project-3.png',
+      link: 'https://task-manager-one-flax-67.vercel.app/',
+    },
+    { 
+      id: 4, 
+      title: 'Unit Converter',
+      category: 'Chrome Extension', 
+      img: '/assets/images/project-4.png',
+      link: 'https://github.com/Chaitanya-361/unit-converter',
+    },
+    { 
+      id: 5, 
+      title: 'Weather Extension',
+      category: 'Chrome Extension', 
+      img: '/assets/images/project-5.png',
+      link: 'https://github.com/Chaitanya-361/Weather-Extension',
+    },
+    { 
+      id: 6, 
+      title: 'Links Saver',
+      category: 'Chrome Extension', 
+      img: '/assets/images/project-6.png',
+      link: 'https://github.com/Chaitanya-361/Links-Saver',
+    },
+    { 
+      id: 7, 
+      title: 'Lost and Found',
+      category: 'Full Stack', 
+      img: '/assets/images/project-7.png',
+      link: 'https://github.com/Chaitanya-361/Lost-and-Found',
     }
   ];
 
@@ -32,7 +65,7 @@ function Portfolio({ isActive }) {
     ? projects
     : projects.filter(p => p.category === filter);
 
-  const categories = ['All', 'Full Stack', 'Backend'];
+  const categories = ['All', 'Full Stack', 'Frontend', 'Chrome Extension'];
 
   return (
     <article className={`portfolio ${isActive ? 'active' : ''}`} data-page="portfolio">

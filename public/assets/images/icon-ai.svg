@@ -1,0 +1,33 @@
+<svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ai_grad" x1="4" y1="4" x2="38" y2="38" gradientUnits="userSpaceOnUse">
+      <stop offset="0.259" stop-color="#FFDB6E"/>
+      <stop offset="1" stop-color="#FFBC5E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Ambient Glow Backdrop (0.15 opacity) -->
+  <rect x="6" y="14" width="22" height="22" rx="6" fill="url(#ai_grad)" opacity="0.15"/>
+  <path opacity="0.2" d="M28 6.5 Q28 13 34.5 13 Q28 13 28 19.5 Q28 13 21.5 13 Q28 13 28 6.5 Z" fill="url(#ai_grad)"/>
+
+  <!-- Badge Container with Open Top-Right Corner -->
+  <path d="M17 14H12C8.686 14 6 16.686 6 20V30C6 33.314 8.686 36 12 36H22C25.314 36 28 33.314 28 30V24" stroke="url(#ai_grad)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Letters 'AI' Inside Badge -->
+  <!-- Letter A -->
+  <path d="M11 29.5L14.5 19.5L18 29.5" stroke="url(#ai_grad)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M12.3 26H16.7" stroke="url(#ai_grad)" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Letter I -->
+  <path d="M23 19.5V29.5" stroke="url(#ai_grad)" stroke-width="2.2" stroke-linecap="round"/>
+
+  <!-- Sparkles -->
+  <!-- Main Large Sparkle -->
+  <path d="M28 6.5 Q28 13 34.5 13 Q28 13 28 19.5 Q28 13 21.5 13 Q28 13 28 6.5 Z" fill="url(#ai_grad)"/>
+
+  <!-- Top-Right Medium Sparkle -->
+  <path opacity="0.75" d="M35.5 2.5 Q35.5 5.5 38.5 5.5 Q35.5 5.5 35.5 8.5 Q35.5 5.5 32.5 5.5 Q35.5 5.5 35.5 2.5 Z" fill="url(#ai_grad)"/>
+
+  <!-- Top-Left Small Sparkle -->
+  <path opacity="0.5" d="M21.5 6.5 Q21.5 8.5 23.5 8.5 Q21.5 8.5 21.5 10.5 Q21.5 8.5 19.5 8.5 Q21.5 8.5 21.5 6.5 Z" fill="url(#ai_grad)"/>
+</svg>

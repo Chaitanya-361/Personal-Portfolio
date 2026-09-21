@@ -20,8 +20,6 @@ function Contact({ isActive }) {
     if (isFormValid) {
       setStatus('Sending...');
       try {
-        // To make this work, get a free access key from https://web3forms.com/
-        // and replace "YOUR_ACCESS_KEY_HERE" with your actual key.
         const response = await fetch("https://api.web3forms.com/submit", {
           method: "POST",
           headers: {
@@ -29,7 +27,7 @@ function Contact({ isActive }) {
             Accept: "application/json",
           },
           body: JSON.stringify({
-            access_key: "a5855d6d-437b-4a4d-8fd2-684bbd2c6bf7", 
+            access_key: import.meta.env.VITE_WEB3FORMS_ACCESS_KEY, 
             name: formData.fullname,
             email: formData.email,
             message: formData.message,

@@ -29,21 +29,40 @@ function Resume({ isActive }) {
             <p className="timeline-text">
               Intermediate (12th Grade)
               <br/>
-              Score: 9.16 / 10
+              Score: 91.6%
+            </p>
+          </li>
+          <li className="timeline-item">
+            <h4 className="h4 timeline-item-title">Sri Chaitanya Techno School</h4>
+            <span>2021</span>
+            <p className="timeline-text">
+              Secondary School (10th Grade)
+              <br/>
+              Score: 94.8%
             </p>
           </li>
         </ol>
       </section>
+
+      {/* add open source contribution later*/}
 
       <section className="timeline">
         <div className="title-wrapper">
           <div className="icon-box">
             <ion-icon name="medal-outline"></ion-icon>
           </div>
-          <h3 className="h3">Certificates & Open Source Contributions</h3>
+          <h3 className="h3">Certificates</h3>
         </div>
 
         <ol className="timeline-list">
+          <li className="timeline-item">
+            <h4 className="h4 timeline-item-title">Agentic AI Certified Foundations Associate</h4>
+            <span>Oracle University</span>
+            <p className="timeline-text">
+              Recognized for foundational expertise in Agentic AI architecture, autonomous agents, and generative workflows.
+            </p>
+          </li>
+
           <li className="timeline-item">
             <h4 className="h4 timeline-item-title">CS50x: Introduction to Computer Science</h4>
             <span>Harvard University</span>
@@ -51,6 +70,7 @@ function Resume({ isActive }) {
               Comprehensive course covering C, Python, SQL, and core computer science concepts.
             </p>
           </li>
+
           <li className="timeline-item">
             <h4 className="h4 timeline-item-title">AWS Solutions Architect Associate Certification Program</h4>
             <span>Ethnus</span>
@@ -58,20 +78,23 @@ function Resume({ isActive }) {
               Training for architecting and deploying secure and robust applications on AWS technologies.
             </p>
           </li>
+
           <li className="timeline-item">
-            <h4 className="h4 timeline-item-title">Python Certification</h4>
-            <span>freeCodeCamp</span>
+            <h4 className="h4 timeline-item-title">Oracle Cloud Infrastructure Certified AI Foundations Associate</h4>
+            <span>Oracle University</span>
             <p className="timeline-text">
-              Data structures, algorithms, and application development in Python.
+              Foundational certification validating knowledge of artificial intelligence, machine learning concepts, and OCI AI services.
             </p>
           </li>
+
           <li className="timeline-item">
-            <h4 className="h4 timeline-item-title">Getting Started with Competitive Programming</h4>
-            <span>NPTEL</span>
+            <h4 className="h4 timeline-item-title">Software Engineer Role Certification</h4>
+            <span>HackerRank</span>
             <p className="timeline-text">
-              Advanced problem solving and algorithmic techniques.
+              Role certification assessing problem solving, data structures, algorithms, and core software engineering principles.
             </p>
           </li>
+
         </ol>
       </section>
 

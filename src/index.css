@@ -251,7 +251,6 @@ article.active {
   padding-top: 45px;
   border-radius: 14px;
   box-shadow: var(--shadow-2);
-  cursor: pointer;
   z-index: 1;
 }
 
@@ -502,6 +501,12 @@ main {
   border-radius: 14px;
   box-shadow: var(--shadow-2);
   z-index: 1;
+  transition: transform var(--transition-1), box-shadow var(--transition-1);
+}
+
+.service-item:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-4);
 }
 
 .service-item::before {
@@ -1071,7 +1076,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   main {
-    margin-top: 45px;
+    margin-top: 40px;
     margin-bottom: 0;
     padding-bottom: 100px;
   }
@@ -1482,8 +1487,8 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .main-content {
-    min-width: 70%;
-    width: 70%;
+    min-width: 69%;
+    width: 69%;
     margin: 0 0 0 auto;
   }
 

@@ -37,7 +37,7 @@ function About({ isActive }) {
 
           <li className="service-item">
             <div className="service-icon-box">
-              <img src="/assets/images/icon-app.svg" alt="Cloud & DevOps icon" width="40" />
+              <img src="/assets/images/icon-cloud.svg" alt="Cloud & DevOps icon" width="40" />
             </div>
 
             <div className="service-content-box">
@@ -49,8 +49,8 @@ function About({ isActive }) {
           </li>
           
           <li className="service-item">
-            <div className="service-icon-box">
-              <img src="/assets/images/icon-design.svg" alt="AI Integration icon" width="40" />
+            <div className="service-icon-box" style={{marginTop: '0px'}}>
+              <img src="/assets/images/icon-ai.svg" alt="AI Integration icon" width="50" />
             </div>
 
             <div className="service-content-box">
@@ -63,7 +63,7 @@ function About({ isActive }) {
 
           <li className="service-item">
             <div className="service-icon-box">
-              <img src="/assets/images/icon-photo.svg" alt="Problem Solving icon" width="40" />
+              <img src="/assets/images/icon-puzzle.svg" alt="Problem Solving icon" width="40" />
             </div>
 
             <div className="service-content-box">

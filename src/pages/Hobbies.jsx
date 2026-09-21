@@ -2,27 +2,52 @@ function Hobbies({ isActive }) {
   const hobbies = [
     {
       id: 1,
-      title: 'Competitive Programming',
-      category: 'Coding',
-      date: 'Ongoing',
-      img: '/assets/images/blog-1.jpg',
-      text: 'Solving algorithmic challenges and continuously improving problem-solving speed.'
+      title: 'Guitar and Singing',
+      category: 'Music',
+      img: '/assets/images/hobby-1.jpg',
+      text: 'Playing guitar and singing since 3 years, love to explore new songs and genres.'
     },
     {
       id: 2,
-      title: 'Exploring New Tech',
-      category: 'Technology',
-      date: 'Ongoing',
-      img: '/assets/images/blog-2.jpg',
-      text: 'Building small side projects with new frameworks or AI models like Gemini and Claude.'
+      title: 'Exploring',
+      category: 'Adventure',
+      img: '/assets/images/hobby-2.jpg',
+      text: 'Exploring new places and cultures, love to travel and experience new things.'
     },
     {
       id: 3,
-      title: 'Reading System Design',
-      category: 'Learning',
-      date: 'Ongoing',
-      img: '/assets/images/blog-3.jpg',
-      text: 'Studying the architecture of large-scale systems and cloud infrastructure.'
+      title: 'Sketching',
+      category: 'Art',
+      img: '/assets/images/hobby-3.jpg',
+      text: 'Sketching and doodling since childhood, love to draw and express my creativity through art.'
+    },
+    {
+      id: 4,
+      title: 'Coding',
+      category: 'Computer Science',
+      img: '/assets/images/hobby-4.jpg',
+      text: 'Into the world of codes, building new things everyday and exploring new technologies.'
+    },
+    {
+      id: 5,
+      title: 'Fast Bowling',
+      category: 'Cricket',
+      img: '/assets/images/hobby-5.jpg',
+      text: 'Left arm fast bowler, trying to swing the ball like Wasim Akram.'
+    },
+    {
+      id: 6,
+      title: 'Running',
+      category: 'Fitness',
+      img: '/assets/images/hobby-6.jpg',
+      text: 'Morning runs keeps me refreshed and energetic for the day.'
+    },
+    {
+      id: 7,
+      title: 'Workout',
+      category: 'Fitness',
+      img: '/assets/images/hobby-7.jpg',
+      text: 'Building a better me and trying to be fit.'
     }
   ];
 
@@ -43,8 +68,6 @@ function Hobbies({ isActive }) {
                 <div className="blog-content">
                   <div className="blog-meta">
                     <p className="blog-category">{post.category}</p>
-                    <span className="dot"></span>
-                    <time dateTime="2022-02-23">{post.date}</time>
                   </div>
                   <h3 className="h3 blog-item-title">{post.title}</h3>
                   <p className="blog-text">
